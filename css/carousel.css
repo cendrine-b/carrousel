@@ -1,0 +1,53 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    color: red;
+}
+
+
+/* CAROUSEL */
+
+#carousel {
+    border: 10px solid black;
+    margin: 0 auto;
+    width: 600px;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#carousel ul li {
+    margin: 0 auto;
+    width: 650px;
+    position: absolute;
+    text-align: center;
+}
+
+#carousel img {
+    max-height: 460px;
+}
+
+
+/* CONTROLS */
+
+.controls {
+    position: relative;
+    top: 45%;
+}
+
+#prev {
+    float: left;
+    margin-left: 10px;
+}
+
+#next {
+    float: right;
+    margin-right: 10px;
+}
